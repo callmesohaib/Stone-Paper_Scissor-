@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+  padding: 1rem;
+}
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice:hover {
+  cursor: pointer;
+  background-color: cyan;
+}
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
+.msg-container {
+  margin-top: 1.5rem;
+}
+#msg {
+  background-color: #081b31;
+  color: white;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+#reBtn {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  background-color: #081b31;
+  color: white;
+  padding: 1rem;
+  border: none;
+  transition: all 0.5s linear;
+}
+#reBtn:hover {
+  border-radius: 1rem;
+  color: cyan;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #081b31;
+}
+#theme{
+  margin-left: 2rem;
+  font-size: 1rem;
+  color: black;
+  background-color: cyan;
+  border: none;
+  padding: 0.5rem;
+  transition: all 0.3s linear;
+  font-weight: bold;
+}
+#theme:hover{
+  transform: scaleX(1.2);
+  transform: scaleY(1.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.invertClass{
+  filter:invert(50);
+}
